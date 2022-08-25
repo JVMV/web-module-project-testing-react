@@ -14,7 +14,7 @@ const Show = (props) => {
       <p>{show.summary}</p>
 
       <label htmlFor="seasons">Select A Season</label><br />
-      <select onChange={handleSelect} name="seasons" id="seasons">
+      <select data-testid='selector' onChange={handleSelect} name="seasons" id="seasons">
         <option value="none"></option>
         {
           show.seasons.map(season => {

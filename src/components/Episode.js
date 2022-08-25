@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Episode = (props) => {
   const { episode } = props;
   const { id, image, name, season, number, summary, runtime } = episode;
